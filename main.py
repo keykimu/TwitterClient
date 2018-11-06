@@ -19,7 +19,7 @@ def main():
     client = tweepy.API(auth)
 
     # tweet
-    # client.update_status("test")
+    client.update_status("test")
 
 #メイン関数実行
 main()
